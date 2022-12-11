@@ -6,16 +6,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "notion pull sample",
+  title: "Warena Documentation",
   tagline: "",
   url: "https://sillsdev.github.io",
-  baseUrl: "/docu-notion-sample-site/",
+  baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
-  organizationName: "sillsdev", // Usually your GitHub org/user name.
-  projectName: "docu-notion-sample-site", // Usually your repo name.
+  organizationName: "huongnguyenduc", // Usually your GitHub org/user name.
+  projectName: "warena-docs", // Usually your repo name.
   deploymentBranch: "gh-pages",
   // Docusaurus recommends "trailingSlash:false", but that gives me an error on build.
   //[ERROR] Error: ENOENT: no such file or directory, open 'C:\dev\docu-notion\build\.html'
@@ -45,7 +45,7 @@ const config = {
   ],
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "fr"],
+    locales: ["en", "vi"],
     localeConfigs: {
       en: {
         label: "English",
@@ -86,17 +86,14 @@ const config = {
         ignorePatterns: [],
       },
       navbar: {
-        title: "Sample Docusaurus Site using docu-notion",
+        title: "Warena Documentation",
         logo: {
           alt: "Logo",
           src: "img/logo.svg",
         },
 
         items: [
-          {
-            type: "localeDropdown",
-            position: "right",
-          },
+
         ],
       },
 
